@@ -1,18 +1,23 @@
 # Sexton’s Music and Rockin Repair LLC
 
-Welcome to the official website for **Sexton’s Music and Rockin Repair LLC**:  
-[https://sextonsmusicandrockinrepair.github.io](https://sextonsmusicandrockinrepair.github.io)
+Welcome to the official site for **Sexton’s Music and Rockin Repair LLC**, hosted on GitHub Pages.
 
-We provide professional repair services for:
+**Live Site:**  
+[https://rockinrepair.github.io/sextonsmusicandrockinrepair.github.io/](https://rockinrepair.github.io/sextonsmusicandrockinrepair.github.io/)
 
-- Guitars (electric & acoustic)
+## About
+
+Sexton’s Music and Rockin Repair LLC provides expert repair services for:
+
+- Electric & acoustic guitars
 - Bass guitars
 - Amplifiers (tube & solid state)
-- Mandolins and banjos
+- Banjos and mandolins
 - Violins and fiddles
 
-Proudly serving Georgetown, Lexington, and Winchester, Kentucky.
+Serving **Georgetown, Lexington, and Winchester, KY**, we’re here to get your gear back to stage-ready shape — fast.
 
 **Let me get you back to Rockin Fast.**
 
-Built using raw HTML and hosted free with GitHub Pages.
+This site is built using raw HTML, handcrafted for a gritty, industrial vibe that matches the bench-side hustle of real repair work. Hosted 100% free using GitHub Pages.
+
