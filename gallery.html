@@ -8,6 +8,8 @@
   <link rel="icon" type="image/png" href="favicon_32x32.png" />
   <style>
     body {
+      background: url('gallery-bg.png') no-repeat center center fixed;
+      background-size: cover;
       background-color: #111;
       color: #f97316;
       font-family: 'Arial Black', sans-serif;
@@ -18,13 +20,12 @@
       padding: 2em 1em;
       background: url('header-clean.png') no-repeat center center;
       background-size: cover;
-      border-bottom: 3px solid #f97316;
     }
     nav {
       background-color: #000;
       padding: 1em 0;
       text-align: center;
-      border-bottom: 2px solid #262626;
+      border-bottom: 3px solid #f97316;
     }
     nav a {
       color: #f97316;
@@ -42,10 +43,22 @@
       padding: 2em;
       max-width: 900px;
       margin: auto;
+      background-color: rgba(0, 0, 0, 0.85);
     }
     .logo {
       width: 150px;
       height: auto;
+    }
+    .gallery {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    .gallery img {
+      width: 300px;
+      height: auto;
+      margin: 10px;
+      border: 3px solid #f97316;
     }
   </style>
 </head>
@@ -65,15 +78,15 @@
   </nav>
   <div class="content">
     
-        <h2>Before & After Repairs</h2>
-        <p>Here’s a look at some real repairs done right in the shop. From fretwork and refinishes to amp rebuilds and quick fixes, this gallery showcases the hands-on work that keeps local musicians rockin.</p>
-        <div class="gallery">
-          <img src="example1.jpg" alt="Before and after guitar neck refret" />
-          <img src="example2.jpg" alt="Amplifier capacitor replacement" />
-          <img src="example3.jpg" alt="Resoldered input jack" />
-          <img src="example4.jpg" alt="Banjo bridge setup" />
-        </div>
-        
+<h2>Before & After Repairs</h2>
+<p>Here’s a look at some real repairs done right in the shop. From fretwork and refinishes to amp rebuilds and quick fixes, this gallery showcases the hands-on work that keeps local musicians rockin.</p>
+<div class="gallery">
+  <img src="example1.jpg" alt="Before and after guitar neck refret" />
+  <img src="example2.jpg" alt="Amplifier capacitor replacement" />
+  <img src="example3.jpg" alt="Resoldered input jack" />
+  <img src="example4.jpg" alt="Banjo bridge setup" />
+</div>
+
   </div>
 </body>
 </html>
