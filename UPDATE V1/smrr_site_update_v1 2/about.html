@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>About | Sexton’s Music & Rockin Repair LLC</title>
+  <meta name="description" content="About Sexton’s Music & Rockin Repair LLC — instrument, amp, pedal, and small electronics repair serving Georgetown, Lexington, and Winchester, KY." />
+  <link rel="stylesheet" href="assets/style.css" />
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicon_32x32.png" />
+  <link rel="icon" type="image/png" sizes="48x48" href="assets/img/favicon_48x48.png" />
+</head>
+<body>
+  <div class="bg" style="background-image:url('assets/img/about-bg.jpeg')"></div>
+  <div class="overlay"></div>
+
+  <header class="topbar">
+    <div class="brand">
+      <img class="brand-logo" src="assets/img/logo-new.png" alt="SMRR logo" />
+      <div>
+        <div class="brand-name">Sexton’s Music & Rockin Repair LLC</div>
+        <div class="brand-tag">Let me get you back to Rockin’ Fast.</div>
+      </div>
+    </div>
+    <nav class="nav">
+      <a href="index.html">Home</a>
+      <a href="services.html">Services & Pricing</a>
+      <a class="active" href="about.html">About</a>
+      <a href="gallery.html">Gallery</a>
+      <a href="reviews.html">Reviews</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <main class="wrap">
+    <section class="panel">
+      <h1>About</h1>
+      <p>
+        I’m Greg (SMRR). I focus on clean, reliable repairs that make your instrument or rig feel right again —
+        from setups and fretwork to electronics, pedals, and amps.
+      </p>
+      <p>
+        I serve <strong>Georgetown</strong>, <strong>Lexington</strong>, and <strong>Winchester, KY</strong>. Pickup & delivery is available by request.
+      </p>
+
+      <h2>What I work on</h2>
+      <ul>
+        <li>Guitars & basses: setups, fret ends, electronics, hardware swaps</li>
+        <li>Acoustics: pickups, bone nuts, tuner swaps, action/intonation work</li>
+        <li>Pedals & pedalboards: repair, troubleshooting, wiring cleanup</li>
+        <li>Amps: diagnostics, maintenance, repairs (tube & solid-state)</li>
+        <li>Small electronics (non-phone): consoles, sound bars, radios, etc.</li>
+      </ul>
+
+      <p class="callout">
+        Want the full list? Head to <a href="services.html">Services & Pricing</a>.
+      </p>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div>
+      <img class="footer-legacy-logo" src="assets/img/logo-old.png" alt="Original SMRR logo" />
+      <div class="small">Original logo — kept here as a reminder of where it started.</div>
+    </div>
+    <div class="small">
+      © <span id="year"></span> Sexton’s Music & Rockin Repair LLC • Kentucky
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
