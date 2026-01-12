@@ -2,81 +2,73 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>About Sexton’s Music and Rockin Repair LLC</title>
-  <meta name="description" content="Learn about Greg Sexton, founder of Sexton’s Music and Rockin Repair LLC — serving Georgetown, Lexington, and Winchester KY with expert guitar and amp repair." />
-  <link rel="icon" type="image/png" href="favicon_32x32.png" />
-  <style>
-    body {
-      background-color: #111;
-      color: #f97316;
-      font-family: 'Arial Black', sans-serif;
-      margin: 0;
-      background: url('about-bg.png') no-repeat center center fixed;
-      background-size: cover;
-    }
-    header {
-      text-align: center;
-      padding: 2em 1em;
-      background: url('header-clean.png') no-repeat center center;
-      background-size: cover;
-    }
-    nav {
-      background-color: #000;
-      padding: 1em 0;
-      text-align: center;
-      border-bottom: 3px solid #f97316;
-    }
-    nav a {
-      color: #f97316;
-      text-decoration: none;
-      margin: 0 20px;
-      font-weight: bold;
-      display: inline-block;
-      padding: 0.5em 1em;
-    }
-    nav a:hover {
-      background-color: #262626;
-      border-radius: 4px;
-    }
-    .content {
-      padding: 2em;
-      max-width: 900px;
-      margin: auto;
-      background-color: rgba(0, 0, 0, 0.85);
-    }
-    .logo {
-      width: 150px;
-      height: auto;
-    }
-  
-@media (max-width: 768px) {
-  body {
-    background-position: center top;
-  }
-}
-
-</style>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>About | Sexton’s Music & Rockin Repair LLC</title>
+  <meta name="description" content="About Sexton’s Music & Rockin Repair LLC — instrument, amp, pedal, and small electronics repair serving Georgetown, Lexington, and Winchester, KY." />
+  <link rel="stylesheet" href="assets/style.css" />
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicon_32x32.png" />
+  <link rel="icon" type="image/png" sizes="48x48" href="assets/img/favicon_48x48.png" />
 </head>
 <body>
-  <header>
-    <img src="7B6989B7-9B00-4D1D-8195-B56047CB0427.png" alt="Sexton's Music and Rockin Repair Logo" class="logo" />
-    <h1>Sexton’s Music and Rockin Repair LLC</h1>
-    <p>Let me get you back to Rockin Fast</p>
+  <div class="bg" style="background-image:url('assets/img/about-bg.jpeg')"></div>
+  <div class="overlay"></div>
+
+  <header class="topbar">
+    <div class="brand">
+      <img class="brand-logo" src="assets/img/logo-new.png" alt="SMRR logo" />
+      <div>
+        <div class="brand-name">Sexton’s Music & Rockin Repair LLC</div>
+        <div class="brand-tag">Let me get you back to Rockin’ Fast.</div>
+      </div>
+    </div>
+    <nav class="nav">
+      <a href="index.html">Home</a>
+      <a href="services.html">Services & Pricing</a>
+      <a class="active" href="about.html">About</a>
+      <a href="gallery.html">Gallery</a>
+      <a href="reviews.html">Reviews</a>
+      <a href="contact.html">Contact</a>
+    </nav>
   </header>
-  <nav>
-    <a href="index.html">Home</a>
-    <a href="about.html">About</a>
-    <a href="services.html">Services</a>
-    <a href="gallery.html">Photo Gallery</a>
-    <a href="reviews.html">Reviews</a>
-    <a href="contact.html">Contact</a>
-  </nav>
-  <div class="content">
-    <h2>Get to Know Sexton’s</h2>
-    <p>I’m Greg Sexton — founder, tech, and the guy who gets you back to Rockin Fast.</p>
-    <p>Sexton’s Music and Rockin Repair LLC was built on one simple idea: you shouldn’t have to wait forever or sell a kidney to get your gear back in shape. Whether it’s a worn-out fretboard, a buzzing amp, or electronics that’ve seen better days — I’ve got the tools, the skills, and the passion to bring it back to life.</p>
-    <p>With over a decade of hands-on experience and deep roots in the Kentucky music scene, this shop isn’t just a service — it’s part of the community. No frills, no fluff — just solid, honest work. Let’s keep your sound alive.</p>
-  </div>
+
+  <main class="wrap">
+    <section class="panel">
+      <h1>About</h1>
+      <p>
+        I’m Greg (SMRR). I focus on clean, reliable repairs that make your instrument or rig feel right again —
+        from setups and fretwork to electronics, pedals, and amps.
+      </p>
+      <p>
+        I serve <strong>Georgetown</strong>, <strong>Lexington</strong>, and <strong>Winchester, KY</strong>. Pickup & delivery is available by request.
+      </p>
+
+      <h2>What I work on</h2>
+      <ul>
+        <li>Guitars & basses: setups, fret ends, electronics, hardware swaps</li>
+        <li>Acoustics: pickups, bone nuts, tuner swaps, action/intonation work</li>
+        <li>Pedals & pedalboards: repair, troubleshooting, wiring cleanup</li>
+        <li>Amps: diagnostics, maintenance, repairs (tube & solid-state)</li>
+        <li>Small electronics (non-phone): consoles, sound bars, radios, etc.</li>
+      </ul>
+
+      <p class="callout">
+        Want the full list? Head to <a href="services.html">Services & Pricing</a>.
+      </p>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div>
+      <img class="footer-legacy-logo" src="assets/img/logo-old.png" alt="Original SMRR logo" />
+      <div class="small">Original logo — kept here as a reminder of where it started.</div>
+    </div>
+    <div class="small">
+      © <span id="year"></span> Sexton’s Music & Rockin Repair LLC • Kentucky
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
 </body>
 </html>

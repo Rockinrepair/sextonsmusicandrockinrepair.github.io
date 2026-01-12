@@ -2,83 +2,74 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Sexton’s Music and Rockin Repair LLC</title>
-  <meta name="description" content="Sexton’s Music and Rockin Repair LLC – expert guitar and amp repair serving Georgetown, Lexington, and Winchester, KY. Honest work. Quick turnaround. Let me get you back to Rockin Fast." />
-  <link rel="icon" type="image/png" href="favicon_32x32.png" />
-  <style>
-    body {
-      background: url('index-bg.png') no-repeat center center fixed;
-      background-size: cover;
-      background-color: #111;
-      color: #f97316;
-      font-family: 'Arial Black', sans-serif;
-      margin: 0;
-    }
-    header {
-      text-align: center;
-      padding: 2em 1em;
-      background: url('header-clean.png') no-repeat center center;
-      background-size: cover;
-    }
-    nav {
-      background-color: #000;
-      padding: 1em 0;
-      text-align: center;
-      border-bottom: 3px solid #f97316;
-    }
-    nav a {
-      color: #f97316;
-      text-decoration: none;
-      margin: 0 20px;
-      font-weight: bold;
-      display: inline-block;
-      padding: 0.5em 1em;
-    }
-    nav a:hover {
-      background-color: #262626;
-      border-radius: 4px;
-    }
-    .content {
-      padding: 2em;
-      max-width: 900px;
-      margin: auto;
-      background-color: rgba(0, 0, 0, 0.85);
-    }
-    .logo {
-      width: 150px;
-      height: auto;
-    }
-  
-@media (max-width: 768px) {
-  body {
-    background-position: center top;
-  }
-}
-
-</style>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sexton’s Music & Rockin Repair LLC | Georgetown • Lexington • Winchester, KY</title>
+  <meta name="description" content="Guitar, bass, pedal, amp, and small electronics repair in Georgetown, Lexington, and Winchester, KY. Pickup & delivery available. Let me get you back to rockin fast." />
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicon_32x32.png" />
+  <link rel="icon" type="image/png" sizes="48x48" href="assets/img/favicon_48x48.png" />
+  <link rel="stylesheet" href="assets/style.css" />
 </head>
 <body>
-  <header>
-    <img src="7B6989B7-9B00-4D1D-8195-B56047CB0427.png" alt="Sexton's Music and Rockin Repair Logo" class="logo" />
-    <h1>Sexton’s Music and Rockin Repair LLC</h1>
-    <p>Let me get you back to Rockin Fast</p>
-  </header>
-  <nav>
-    <a href="index.html">Home</a>
-    <a href="about.html">About</a>
-    <a href="services.html">Services</a>
-    <a href="gallery.html">Photo Gallery</a>
-    <a href="reviews.html">Reviews</a>
-    <a href="contact.html">Contact</a>
-  </nav>
-  <div class="content">
-    
-<h2>Welcome to Sexton’s Music and Rockin Repair LLC</h2>
-<p>Serving musicians across Georgetown, Lexington, and Winchester, KY with expert guitar, bass, and amplifier repair. Every job is handled with care, precision, and respect for your gear.</p>
-<p>We offer quick turnaround, fair prices, and a no-nonsense approach to getting your instruments stage-ready. Whether it's a vintage amp that needs breathing room or a guitar that needs new life — this is the shop that gets it done right.</p>
-<p><strong>Let me get you back to Rockin Fast.</strong></p>
+  <div class="bg" style="background-image:url('assets/img/index-bg.png')"></div>
 
-  </div>
+  <header class="site-header">
+    <div class="container topbar">
+      <a class="brand" href="index.html" aria-label="Home">
+        <img src="assets/img/logo-new.png" alt="SMRR logo" />
+      </a>
+      <nav class="nav" aria-label="Primary">
+        <a href="services.html">Services & Pricing</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="reviews.html">Reviews</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="hero">
+      <div class="panel">
+        <h1>Sexton’s Music & Rockin Repair LLC</h1>
+        <p class="lead">Guitar • Bass • Pedals • Amps • Small Electronics</p>
+        <p class="lead">Serving <strong>Georgetown</strong>, <strong>Lexington</strong>, and <strong>Winchester, KY</strong>.</p>
+        <div class="cta-row">
+          <a class="btn" href="services.html">See Services & Pricing</a>
+          <a class="btn outline" href="contact.html">Book Drop‑Off / Pickup</a>
+        </div>
+        <p class="fine">"Let me get you back to Rockin Fast."</p>
+      </div>
+
+      <div class="panel">
+        <h2>Quick Notes</h2>
+        <ul>
+          <li><strong>Bench fee:</strong> Amps $35. Instruments & most other services $25. If you proceed with the repair, the bench fee is applied toward labor.</li>
+          <li><strong>Pickup & delivery:</strong> available (see Services page for pricing).</li>
+          <li><strong>Sales tax:</strong> Kentucky 6% applies at checkout.</li>
+        </ul>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div class="footer-left">
+        <img src="assets/img/logo-old.png" alt="Original SMRR logo" />
+        <div>
+          <div class="fine"><strong>Original logo</strong> — keeping it here as a nod to where it all started.</div>
+          <div class="fine">© <span id="y"></span> Sexton’s Music & Rockin Repair LLC</div>
+        </div>
+      </div>
+      <div class="footer-right fine">
+        <div>Georgetown • Lexington • Winchester, KY</div>
+        <div>Email: sextonsrockinrepair@gmail.com</div>
+        <div>Phone/WhatsApp: 859‑749‑2243</div>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById('y').textContent = new Date().getFullYear();
+  </script>
 </body>
 </html>

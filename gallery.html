@@ -2,98 +2,63 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Photo Gallery | Sexton’s Music and Rockin Repair LLC</title>
-  <meta name="description" content="Check out before-and-after repair photos from Sexton’s Music and Rockin Repair LLC. Real repairs for real musicians in Georgetown, Lexington, and Winchester KY." />
-  <link rel="icon" type="image/png" href="favicon_32x32.png" />
-  <style>
-    body {
-      background: url('gallery-bg.png') no-repeat center center fixed;
-      background-size: cover;
-      background-color: #111;
-      color: #f97316;
-      font-family: 'Arial Black', sans-serif;
-      margin: 0;
-    }
-    header {
-      text-align: center;
-      padding: 2em 1em;
-      background: url('header-clean.png') no-repeat center center;
-      background-size: cover;
-    }
-    nav {
-      background-color: #000;
-      padding: 1em 0;
-      text-align: center;
-      border-bottom: 3px solid #f97316;
-    }
-    nav a {
-      color: #f97316;
-      text-decoration: none;
-      margin: 0 20px;
-      font-weight: bold;
-      display: inline-block;
-      padding: 0.5em 1em;
-    }
-    nav a:hover {
-      background-color: #262626;
-      border-radius: 4px;
-    }
-    .content {
-      padding: 2em;
-      max-width: 900px;
-      margin: auto;
-      background-color: rgba(0, 0, 0, 0.85);
-    }
-    .logo {
-      width: 150px;
-      height: auto;
-    }
-    .gallery {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: center;
-    }
-    .gallery img {
-      width: 300px;
-      height: auto;
-      margin: 10px;
-      border: 3px solid #f97316;
-    }
-  
-@media (max-width: 768px) {
-  body {
-    background-position: center top;
-  }
-}
-
-</style>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Gallery | Sexton’s Music & Rockin Repair LLC</title>
+  <meta name="description" content="Before-and-after photos from repairs and setups." />
+  <link rel="stylesheet" href="assets/style.css" />
 </head>
 <body>
-  <header>
-    <img src="7B6989B7-9B00-4D1D-8195-B56047CB0427.png" alt="Sexton's Music and Rockin Repair Logo" class="logo" />
-    <h1>Sexton’s Music and Rockin Repair LLC</h1>
-    <p>Let me get you back to Rockin Fast</p>
-  </header>
-  <nav>
-    <a href="index.html">Home</a>
-    <a href="about.html">About</a>
-    <a href="services.html">Services</a>
-    <a href="gallery.html">Photo Gallery</a>
-    <a href="reviews.html">Reviews</a>
-    <a href="contact.html">Contact</a>
-  </nav>
-  <div class="content">
-    
-<h2>Before & After Repairs</h2>
-<p>Here’s a look at some real repairs done right in the shop. From fretwork and refinishes to amp rebuilds and quick fixes, this gallery showcases the hands-on work that keeps local musicians rockin.</p>
-<div class="gallery">
-  <img src="example1.jpg" alt="Before and after guitar neck refret" />
-  <img src="example2.jpg" alt="Amplifier capacitor replacement" />
-  <img src="example3.jpg" alt="Resoldered input jack" />
-  <img src="example4.jpg" alt="Banjo bridge setup" />
-</div>
+  <div class="bg" style="background-image:url('assets/img/gallery-bg.jpeg')"></div>
+  <div class="overlay"></div>
 
-  </div>
+  <header class="site-header">
+    <div class="navwrap">
+      <a class="brand" href="index.html">
+        <img class="brand-logo" src="assets/img/logo-new.png" alt="SMRR" />
+        <div>
+          <div class="brand-title">Sexton’s Music & Rockin Repair LLC</div>
+          <div class="brand-sub">Georgetown • Lexington • Winchester, KY</div>
+        </div>
+      </a>
+
+      <nav class="nav">
+        <a href="index.html">Home</a>
+        <a href="services.html">Services</a>
+        <a href="gallery.html" class="active">Gallery</a>
+        <a href="reviews.html">Reviews</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <h1>Gallery</h1>
+    <p class="muted">Drop your favorite job photos into <code>assets/img/gallery/</code> and update the list below. I can wire this up to auto-load later if you want.</p>
+
+    <div class="grid">
+      <div class="card">
+        <h3>Coming soon</h3>
+        <p class="muted">We’ll turn this into a clean, fast before/after gallery (and a separate “bench shots” set if you want).</p>
+      </div>
+      <div class="card">
+        <h3>Tip</h3>
+        <p class="muted">Use filenames like <strong>YYYY-MM-DD_Client_Instrument_Stage.jpg</strong> for consistency.</p>
+      </div>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-inner">
+      <div>
+        <div><strong>Sexton’s Music & Rockin Repair LLC</strong></div>
+        <div class="muted">Phone/WhatsApp: 859-749-2243 • Email: sextonsrockinrepair@gmail.com</div>
+      </div>
+      <div class="footer-logos">
+        <div class="muted" style="text-align:right">Original logo (where it started)</div>
+        <img class="footer-logo" src="assets/img/logo-old.png" alt="Original SMRR logo" />
+      </div>
+    </div>
+  </footer>
 </body>
 </html>
